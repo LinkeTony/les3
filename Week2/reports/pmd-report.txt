@@ -1,0 +1,48 @@
+
+src/AbstractEmployee.java:2	All classes and interfaces must belong to a named package
+src/AbstractEmployee.java:2	This abstract class does not have any abstract methods
+src/AbstractEmployee.java:4	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/AbstractEmployee.java:4	Private field 'name' could be made final; it is only initialized in the declaration or constructor.
+src/AbstractEmployee.java:6	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/AbstractEmployee.java:8	Parameter 'name' is not assigned and could be declared final
+src/AbstractEmployee.java:8	Parameter 'salary' is not assigned and could be declared final
+src/AbstractEmployee.java:17	Parameter 'employeeType' is not assigned and could be declared final
+src/AbstractEmployee.java:21	Parameter 'salary' is not assigned and could be declared final
+src/AbstractEmployee.java:25	An empty method in an abstract class should be abstract instead
+src/AbstractEmployee.java:25	Document empty method
+src/AbstractEmployee.java:25	Parameter 'employee' is not assigned and could be declared final
+src/AbstractEmployee.java:33	System.out.print is used
+src/EmployeeJunior.java:2	All classes and interfaces must belong to a named package
+src/EmployeeJunior.java:4	Parameter 'name' is not assigned and could be declared final
+src/EmployeeJunior.java:4	Parameter 'salary' is not assigned and could be declared final
+src/EmployeeJunior.java:9	Parameter 'employee' is not assigned and could be declared final
+src/EmployeeMedior.java:2	All classes and interfaces must belong to a named package
+src/EmployeeMedior.java:4	Parameter 'name' is not assigned and could be declared final
+src/EmployeeMedior.java:4	Parameter 'salary' is not assigned and could be declared final
+src/EmployeeMedior.java:9	Parameter 'employee' is not assigned and could be declared final
+src/EmployeeSenior.java:2	All classes and interfaces must belong to a named package
+src/EmployeeSenior.java:4	Parameter 'name' is not assigned and could be declared final
+src/EmployeeSenior.java:4	Parameter 'salary' is not assigned and could be declared final
+src/EmployeeSenior.java:9	Parameter 'employee' is not assigned and could be declared final
+src/Exceptions/EmployeeException.java:1	Package name contains upper case characters
+src/Exceptions/EmployeeException.java:5	Parameter 'message' is not assigned and could be declared final
+src/Main.java:3	All classes and interfaces must belong to a named package
+src/Main.java:3	All methods are static.  Consider using Singleton instead.  Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/Main.java:5	Parameter 'args' is not assigned and could be declared final
+src/Main.java:7	Local variable 'salarySystem' could be declared final
+src/Main.java:9	Local variable 'employee1' could be declared final
+src/Main.java:10	Local variable 'employee2' could be declared final
+src/Main.java:11	Local variable 'employee3' could be declared final
+src/Main.java:12	Local variable 'employee4' could be declared final
+src/Main.java:20	System.out.print is used
+src/SalarySystem.java:4	All classes and interfaces must belong to a named package
+src/SalarySystem.java:6	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/SalarySystem.java:6	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/SalarySystem.java:6	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/SalarySystem.java:6	Private field 'employees' could be made final; it is only initialized in the declaration or constructor.
+src/SalarySystem.java:8	Parameter 'employee' is not assigned and could be declared final
+src/SalarySystem.java:9	Avoid if (x != y) ..; else ..;
+src/SalarySystem.java:17	Parameter 'name' is not assigned and could be declared final
+src/SalarySystem.java:20	A method should have only one exit point, and that should be the last statement in the method
+src/SalarySystem.java:26	Parameter 'employee' is not assigned and could be declared final
+src/SalarySystem.java:32	System.out.print is used
